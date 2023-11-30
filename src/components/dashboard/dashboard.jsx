@@ -1,10 +1,13 @@
-import { Header } from '../shared/header';
+import { Header } from '../shared/header/header';
 
 export function Dashboard() {
     return(
-        <div>
+        <>
             <Header />
-            Hola Dashboard
-        </div>
+
+            <div className='content'>
+                Hola Dashboard
+            </div>
+        </>
     )
 }
