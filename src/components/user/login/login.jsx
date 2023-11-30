@@ -1,10 +1,14 @@
-
+import './login.css';
 
 export function Login() {
 
     return(
-        <div>
-            login
+        <div className='div_login'>
+            Login
+            <form>
+                <input type="text" placeholder="Usuario" />
+                <input type="text" placeholder="Contraseña" />
+            </form>
         </div>
     );
 
