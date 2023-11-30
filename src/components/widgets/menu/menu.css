@@ -1,6 +1,15 @@
 .menu {
     width: 180px;
     border-right: 1px solid #363636;
-    position: absolute;
+    /* position: absolute; */
     height: calc(100vh - 60px);
+}
+.button_arrow {
+    position: absolute;
+    right: -14px;
+    display: flex;
+    padding: 4px;
+    top: 50%;
+    transform: translateY(-50%) rotate(180deg);
+    cursor: pointer;
 }
