@@ -13,3 +13,17 @@
     transform: translateY(-50%) rotate(180deg);
     cursor: pointer;
 }
+.content_menu {
+    text-align: left;
+}
+.option_menu {
+    padding: 10px 0 10px 10px;
+    cursor: pointer;
+    color: #FFFFFF !important;
+}
+.option_menu:hover {
+    /* opacity: .3; */
+    /* background-color: #5f5f5f; */
+    background-color: #b7b7b71f;
+    transition: .4s all;
+}

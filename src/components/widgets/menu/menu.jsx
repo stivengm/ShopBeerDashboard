@@ -6,10 +6,14 @@ export function Menu() {
             <div className='menu'>
                 <div className='content_menu'>
 
+                    <div className='option_menu'>Admin</div>
+                    <div className='option_menu'>Notificaciones</div>
+                    <div className='option_menu'>Configuración</div>
+
                 </div>
-                <span className='button_arrow'>
-                    <i class="fa-solid fa-arrow-right"></i>
-                </span>
+                {/* <span className='button_arrow'>
+                    <i className="fa-solid fa-arrow-right"></i>
+                </span> */}
             </div>
         </>
     )
