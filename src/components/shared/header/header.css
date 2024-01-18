@@ -6,3 +6,8 @@
     align-items: center;
     border-bottom: 1px solid #363636;
 }
+.title_app {
+    font-family: 'Dancing Script', cursive;
+    font-size: 40px;
+    cursor: pointer;
+}
