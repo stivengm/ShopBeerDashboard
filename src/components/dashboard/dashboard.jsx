@@ -3,6 +3,8 @@ import { Loader } from '../shared/loader/loader';
 import { Menu } from '../widgets/menu/menu';
 import './dashboard.css';
 
+import { Notifications } from '../notifications/notifications';
+
 export function Dashboard() {
     return(
         <>
@@ -13,7 +15,7 @@ export function Dashboard() {
 
             <div className='content'>
                 <Menu />
-                Hola Dashboard
+                <Notifications />
             </div>
         </>
     )
