@@ -9,6 +9,8 @@ export function Menu() {
                     <div className='option_menu'>Admin</div>
                     <div className='option_menu'>Notificaciones</div>
                     <div className='option_menu'>Configuración</div>
+                    <div className='option_menu'>Categorías</div>
+                    <div className='option_menu'>Productos</div>
 
                 </div>
                 {/* <span className='button_arrow'>
