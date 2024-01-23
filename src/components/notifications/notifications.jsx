@@ -19,13 +19,14 @@ export function Notifications() {
     async function getNotificaions() {
         const config = await getConfigSessionStorage();
         const conf = JSON.parse(config);
-        console.log(conf.api);
-        axios.get(`${conf.api}/api/v1/config/notifications`).then((response) => {
-            setConfig(response.data);
-            setTimeout(() => {
-                setLoader(false);
-            }, 8000);
-        });
+        if (conf != null) {
+            axios.get(`${conf.api}/api/v1/config/notifications`).then((response) => {
+                setConfig(response.data);
+                setTimeout(() => {
+                    setLoader(false);
+                }, 8000);
+            });
+        }
     }
 
     
